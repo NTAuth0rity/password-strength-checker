@@ -26,7 +26,6 @@ def checkPassword(password):
     return points
 
 def main():
-    print("WARNING: This script is a proof of concept (POC) and should not be used as a substitute for a fully featured password checker that checks entropy.\n")
     password = input("Enter password to check: ")
 
     if password:
